@@ -44,13 +44,10 @@ while True:
                 try:
                     r.recvuntil(b"> ")
                     r.sendline("1")
-                    print("first")
 
                     # Replicated email
                     print(r.recvuntil(b"Sender address: "))
-                    print("a")
                     r.sendline("brendan.serafino@enterprise.local")
-                    print("this do be a mail")
 
                     # Crafted modulus
                     print(r.recvuntil(b"Sender modulus: "))
