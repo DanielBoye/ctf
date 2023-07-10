@@ -46,6 +46,7 @@ while True:
                     r.sendline("1")
                     print("first")
 
+                    # Replicated email
                     print(r.recvuntil(b"Sender address: "))
                     print("a")
                     r.sendline("brendan.serafino@enterprise.local")
