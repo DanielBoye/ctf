@@ -4,6 +4,9 @@ import time
 import requests
 import json
 
+
+# Sending the modulus 1337 and crafting a weird attachment
+
 def getFlagIds():
     ids = requests.get("https://web.ad.teameurope.space/competition/teams.json").json()
     flagIds = dict()
