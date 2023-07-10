@@ -51,6 +51,7 @@ while True:
                     r.sendline("brendan.serafino@enterprise.local")
                     print("this do be a mail")
 
+                    # Crafted modulus
                     print(r.recvuntil(b"Sender modulus: "))
                     r.sendline("a1b2f991acd48955f125bdf55a541a23abb5f9af834491071048675ebee0203bb4179e54ea1caa266b87d6aa4962a96875d6ba39e0d5df113e9bdf2475947f7448ce35f662f1b8643ee62a404acd075321493c882ec6f6b186df4d589b864782106a4660cf14a3cba5ca68ee2e7a81b184c00fa1cee06bafdd3b4208d0fcbe79")
 
