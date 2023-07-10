@@ -4,6 +4,12 @@ import time
 import requests
 import json
 
+
+# This exploit I wrote since when I monitored Tulip, a strange request with 
+# a crafted modulus came in
+
+# So this is the code I wrote to try and replicate the exploits
+
 def getFlagIds():
     ids = requests.get("https://web.ad.teameurope.space/competition/teams.json").json()
     flagIds = dict()
