@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>satoshi from wish</title>
+</head>
+<body>
+    <h1>Blockchain Wallet Dashboard</h1>
+    <h2>Welcome to your wallet!</h2>
+    <p>Here are your recent transactions:</p>
+    <ul>
+        {% for transaction in transactions %}
+        <li>{{ transaction.sender }} sent {{ transaction.amount }} coins to {{ transaction.receiver }}</li>
+        {% endfor %}
+    </ul>
+    <p id="flag">Flag: {{ flag }}</p>
+    <a href="/logout">Logout</a>
+</body>
+</html>

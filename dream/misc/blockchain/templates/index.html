@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blockchain Wallet Challenge</title>
+</head>
+<body>
+    <h1>Blockchain Wallet Challenge</h1>
+    <form method="post" action="/">
+        <label for="public_key">Enter the Public Key:</label>
+        <input type="text" id="public_key" name="public_key" required>
+        <br>
+        <label for="private_key">Enter the Private Key:</label>
+        <input type="text" id="private_key" name="private_key" required>
+        <br>
+        <input type="submit" value="Login">
+    </form>
+    <p>{{ message }}</p>
+    <h2>Public Keys:</h2>
+    <ul>
+        {% for username, user_data in users.items() %}
+            <li>{{ username }}: {{ user_data.public_key }}, Private Key: {{ user_data.private_key }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

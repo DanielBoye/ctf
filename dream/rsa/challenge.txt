@@ -1,0 +1,9 @@
+oh no, i lost my super duper secure password for my .zip file
+
+can you help me find it?
+
+n = 3233
+e = 3
+c = [2146, 98, 1589, 2146, 1589]
+p = 61
+q = 53

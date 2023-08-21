@@ -1,0 +1,414 @@
+From - Mon Jul 31 13:31:42 2023
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-Path: <h@ckerman.eu>
+Delivered-To: anon@blackhat.lol
+Received: from 2.mail-backend.blackhat.lol
+	by 2.mail-backend.blackhat.lol with LMTP
+	id 2MiuFI2Nx2SFDCcAFYkcXQ
+	(envelope-from <h@ckerman.eu>)
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 10:31:41 +0000
+Received: from devianza.blackhat.lol (unknown [127.0.0.1])
+	by 2.mail-backend.blackhat.lol (Postfix) with ESMTP id 4RDvfz3cjpzyVx
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 10:31:39 +0000 (UTC)
+Received: from mx2.blackhat.lol (unknown [127.0.0.1])
+	by devianza.blackhat.lol (Postfix) with ESMTP id 4RDvfz2f13z6vC3
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 10:31:39 +0000 (UTC)
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=127.0.0.1; helo=ckerman.eu; envelope-from=h@ckerman.eu; receiver=<UNKNOWN> 
+Received: from ckerman.eu (ckerman.eu [127.0.0.1])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (P-256) server-signature RSA-PSS (2048 bits) server-digest SHA512)
+	(No client certificate requested)
+	by mx2.blackhat.lol (Postfix) with ESMTPS id 4RDvfz1tJCz6v94
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 10:31:39 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ckerman.eu; s=mail;
+	t=1690799476;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:
+	 in-reply-to:in-reply-to:references:references;
+	bh=B3/cAAQ4xjmFibQHRyhdAZeOeoyoQ1DUrtOvYJr0x5c=;
+	b=OMawIE/WShM6MWV5hGkypVn1KxdCIjDKNWKOR0tcKmDq/Omgzt3gNGReCAxSkpkNP8hQ0t
+	64g+saAG6HwBTcQzfPOa5DZhmGqgAYOv+Xr7OI3zDxFM5ct6y/OX/FEaGcIzwcXSkx3l0w
+	gQu5fuQP5PrKqD0wGz8QQpy0HHpGtqJ0Nqzo/NEVcp1CE1/TNq56t09RQaQpzivD/hWg66
+	t5k1eJ7sLv8MZ4FdO44fLvJnMATJxh11v6HCtIrGszDJdKOvYv826vWMSTGfkYTHT8/aca
+	WHwgPGa/YTWSJlxrf1BUdcTQAvn1BDcuztRhfax7TuQmZ/iIEJkhvNTYtO3Ysg==
+Received: from [127.0.0.1] (193-40-225-195.kehtna.edu.ee [127.0.0.1])
+	by ckerman.eu (OpenSMTPD) with ESMTPSA id a6695302 (TLSv1.3:TLS_AES_256_GCM_SHA384:256:NO)
+	for <anon@blackhat.lol>;
+	Mon, 31 Jul 2023 10:31:16 +0000 (UTC)
+Message-ID: <bcf34542-09cd-7b09-4c6a-53a477967fbe@ckerman.eu>
+Date: Mon, 31 Jul 2023 13:31:15 +0300
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101
+ Thunderbird/102.13.1
+Subject: Re: Forgot the secret key
+Content-Language: en-US
+To: Anon <anon@blackhat.lol>
+References: <016d913d-ff95-50f9-c4be-fe9c242b99dc@blackhat.lol>
+From: H2ck3rM2n <h@ckerman.eu>
+In-Reply-To: <016d913d-ff95-50f9-c4be-fe9c242b99dc@blackhat.lol>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=-0.3 required=3.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,DKIM_VALID_EF,NICE_REPLY_A,SPF_HELO_PASS,SPF_PASS,
+	T_SCC_BODY_TEXT_LINE shortcircuit=no autolearn=ham autolearn_force=no
+	version=3.4.6
+X-Spam-Checker-Version: SpamAssassin 3.4.6 (2021-04-09) on
+	spamassassin.blackhat.lol
+
+Are you fucking serious?
+
+I wrote it on a piece of paper beforehand.
+
+Have you checked all places?
+
+I don't want to send the key by email.
+
+On 7/31/23 13:29, Anon wrote:
+> Hey, I have a little problem.
+>
+> I cannot login to our secret chat anymore since I have forgotten the key.
+>
+> Please, can you send it to me?
+>
+From 
+Message-ID: <e101a545-1b33-deef-40df-e3565c71a04c@blackhat.lol>
+Date: Mon, 31 Jul 2023 13:33:33 +0300
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101
+ Thunderbird/102.13.1
+Subject: Re: Forgot the secret key
+Content-Language: en-US
+To: H2ck3rM2n <h@ckerman.eu>
+References: <016d913d-ff95-50f9-c4be-fe9c242b99dc@blackhat.lol>
+ <bcf34542-09cd-7b09-4c6a-53a477967fbe@ckerman.eu>
+From: Anon <anon@blackhat.lol>
+In-Reply-To: <bcf34542-09cd-7b09-4c6a-53a477967fbe@ckerman.eu>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Yes, I have literally checked everywhere.
+
+Can you please just send it, so we could get this over with?
+
+On 7/31/23 13:31, H2ck3rM2n wrote:
+> Are you fucking serious?
+>
+> I wrote it on a piece of paper beforehand.
+>
+> Have you checked all places?
+>
+> I don't want to send the key by email.
+>
+> On 7/31/23 13:29, Anon wrote:
+>> Hey, I have a little problem.
+>>
+>> I cannot login to our secret chat anymore since I have forgotten the 
+>> key.
+>>
+>> Please, can you send it to me?
+>>
+From - Mon Jul 31 14:08:26 2023
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-Path: <h@ckerman.eu>
+Delivered-To: anon@blackhat.lol
+Received: from 2.mail-backend.blackhat.lol
+	by 2.mail-backend.blackhat.lol with LMTP
+	id IJALJiiWx2R3MScAFYkcXQ
+	(envelope-from <h@ckerman.eu>)
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:08:24 +0000
+Received: from confino.blackhat.lol (unknown [127.0.0.1])
+	by 2.mail-backend.blackhat.lol (Postfix) with ESMTP id 4RDwTM6X4fzyVx
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:08:23 +0000 (UTC)
+Received: from mx1.blackhat.lol (unknown [127.0.0.1])
+	by confino.blackhat.lol (Postfix) with ESMTP id 4RDwTM5ywkz10yk
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:08:23 +0000 (UTC)
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=127.0.0.1; helo=ckerman.eu; envelope-from=h@ckerman.eu; receiver=<UNKNOWN> 
+Received: from ckerman.eu (ckerman.eu [127.0.0.1])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (P-256) server-signature RSA-PSS (2048 bits) server-digest SHA512)
+	(No client certificate requested)
+	by mx1.blackhat.lol (Postfix) with ESMTPS id 4RDwTM4xvyz10wv
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:08:23 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ckerman.eu; s=mail;
+	t=1690801678;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding:
+	 in-reply-to:in-reply-to:references:references;
+	bh=zbUEWHKHFYHM8D526zVPX4umiI5roUgDaTZQV+A+My4=;
+	b=CXYNd6OFY5W+ydRyKTu7VrWT2oG9OlLSLBXKRIycgXN65KZuPaUvNdo9FUaVI4FWj/H3kw
+	q+Sb/Pfvp3mV3LdUHoasT7RtzNevzZ+p8nR3qSbIei869e/HzcEHH1tI9AcRTwwvIhRa3B
+	x8rASYCu6KYJ0Pa52I49up62hPlUjdeBm/ZIuvmyBbCSrOqZDuVACfulmatM8Jy2HyTgV7
+	ivGiA3Kl36604YY/1LNMo6brFESyzfuMe6U8eUoGnZawybON7zNJJzaF8kwDOhomEtCsmS
+	TkoJ6EJaj1SL3/plPV0gR5Pg75+H/QJuBt+Jk0C5QDgJj0VQzZp3L4uEKvqupw==
+Received: from [127.0.0.1] (193-40-225-195.kehtna.edu.ee [127.0.0.1])
+	by ckerman.eu (OpenSMTPD) with ESMTPSA id 22d0b055 (TLSv1.3:TLS_AES_256_GCM_SHA384:256:NO)
+	for <anon@blackhat.lol>;
+	Mon, 31 Jul 2023 11:07:58 +0000 (UTC)
+Message-ID: <cb70170d-0a64-34da-db71-224d22ea0b4c@ckerman.eu>
+Date: Mon, 31 Jul 2023 14:07:47 +0300
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101
+ Thunderbird/102.13.1
+Subject: Re: Forgot the secret key
+Content-Language: en-US
+To: Anon <anon@blackhat.lol>
+References: <016d913d-ff95-50f9-c4be-fe9c242b99dc@blackhat.lol>
+ <bcf34542-09cd-7b09-4c6a-53a477967fbe@ckerman.eu>
+ <e101a545-1b33-deef-40df-e3565c71a04c@blackhat.lol>
+From: H2ck3rM2n <h@ckerman.eu>
+In-Reply-To: <e101a545-1b33-deef-40df-e3565c71a04c@blackhat.lol>
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=-5.0 required=3.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,DKIM_VALID_EF,NICE_REPLY_A,SPF_HELO_PASS,SPF_PASS,TXREP,
+	T_SCC_BODY_TEXT_LINE shortcircuit=no autolearn=ham autolearn_force=no
+	version=3.4.6
+X-Spam-Checker-Version: SpamAssassin 3.4.6 (2021-04-09) on
+	spamassassin.blackhat.lol
+
+Okay, I'll send it to you, but encrypted.
+
+You should know the decryption password. In case you don't the hash is bb2f04c5d0526eb20e38d992f3b56cde.
+
+The key itself is: U2FsdGVkX18ltgpgJozfFt6xNwkInGapNZeUlAp4DPmawUDXFiooiBK932lFJ/a8
+
+On 7/31/23 13:33, Anon wrote:
+> Yes, I have literally checked everywhere.
+>
+> Can you please just send it, so we could get this over with?
+>
+> On 7/31/23 13:31, H2ck3rM2n wrote:
+>> Are you fucking serious?
+>>
+>> I wrote it on a piece of paper beforehand.
+>>
+>> Have you checked all places?
+>>
+>> I don't want to send the key by email.
+>>
+>> On 7/31/23 13:29, Anon wrote:
+>>> Hey, I have a little problem.
+>>>
+>>> I cannot login to our secret chat anymore since I have forgotten the 
+>>> key.
+>>>
+>>> Please, can you send it to me?
+>>>
+From - Mon Jul 31 14:14:53 2023
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-Path: <john.smith@cyberresearch.xyz>
+Delivered-To: anon@blackhat.lol
+Received: from 2.mail-backend.blackhat.lol
+	by 2.mail-backend.blackhat.lol with LMTP
+	id +FUFOauXx2R3MScAFYkcXQ
+	(envelope-from <h@ckerman.eu>)
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:14:51 +0000
+Received: from latitanza.blackhat.lol (unknown [127.0.0.1])
+	by 2.mail-backend.blackhat.lol (Postfix) with ESMTP id 4RDwcq2H84zyVx
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:14:51 +0000 (UTC)
+Received: from mx3.blackhat.lol (unknown [127.0.0.1])
+	by latitanza.blackhat.lol (Postfix) with ESMTP id 4RDwcq1y7YzGnxZ
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:14:51 +0000 (UTC)
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=127.0.0.1; helo=ckerman.eu; envelope-from=h@ckerman.eu; receiver=<UNKNOWN> 
+Received: from ckerman.eu (ckerman.eu [127.0.0.1])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (P-256) server-signature RSA-PSS (2048 bits) server-digest SHA512)
+	(No client certificate requested)
+	by mx3.blackhat.lol (Postfix) with ESMTPS id 4RDwcp4GfpzGnxT
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:14:50 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ckerman.eu; s=mail;
+	t=1690802054;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding;
+	bh=jZQwUd/3dl0obQV4gYWaOTIwXSs9CthL7feDV5H0ZtY=;
+	b=QPfj0TR9xaUCUZ4QlkX/GKAOwuhXAh3SHH562OqSW3kbF+YJPsXeYn3Zd3o4xDsf5rKRqS
+	cyGAyr6kY8G1/kOPSS8DMkTPoDN1fVMV3nUfiGnxDxk5GJ7wtzKvnhNCEvIDNT3tuB1duo
+	FV16lU6SBv3pgmlCxlsG/2GQhB8vOWeMCxBV7KwouvPezQ3vNQaihtqTxLrkREAp5VbR86
+	HoEyjOYLzYF/t6paOX/sj2zP1JGMUNQSKyPsX2ytYtagkZmEtUwyDBAudnlqRwvFE25wtD
+	sBxTXiDnBlQw2nXNKatXkzQSQuuCBL0lg1l/0gc6pKNl1aqOx2LqCSEY3xVzMA==
+Received: from [127.0.0.1] (193-40-225-195.kehtna.edu.ee [127.0.0.1])
+	by ckerman.eu (OpenSMTPD) with ESMTPSA id 482961cd (TLSv1.3:TLS_AES_256_GCM_SHA384:256:NO)
+	for <anon@blackhat.lol>;
+	Mon, 31 Jul 2023 11:14:14 +0000 (UTC)
+Message-ID: <148d72ea-e785-f21e-f9ab-60d9962a699e@ckerman.eu>
+Date: Mon, 31 Jul 2023 14:13:51 +0300
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101
+ Thunderbird/102.13.1
+Content-Language: en-US
+To: Anon <anon@blackhat.lol>
+From: John Smith <john.smith@cyberresearch.xyz>
+Subject: Let's Join Forces on an Exciting Project
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=-5.7 required=3.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,DKIM_VALID_EF,SPF_HELO_PASS,SPF_PASS,TXREP,
+	T_SCC_BODY_TEXT_LINE shortcircuit=no autolearn=ham autolearn_force=no
+	version=3.4.6
+X-Spam-Checker-Version: SpamAssassin 3.4.6 (2021-04-09) on
+	spamassassin.blackhat.lol
+
+Dear Anon,
+
+I hope this email finds you in great spirits. My name is John Smith, and 
+I came across your impressive work while researching potential 
+collaborators for an exciting project I'm developing.
+
+Your expertise and accomplishments in cyber security are precisely what 
+we need to make this venture a resounding success. I believe that by 
+combining our strengths, we can create something truly exceptional.
+
+The project revolves around pentesting government web-services, and it 
+aims to create more secure platforms for everyone. I'm enthusiastic 
+about your involvement and how your unique perspective can elevate the 
+project to new heights.
+
+If you're interested in exploring this opportunity further, I'd be 
+delighted to arrange a meeting or call to discuss the details and 
+potential collaboration terms. Please let me know your availability, and 
+we can find a suitable time to chat.
+
+Looking forward to hearing from you soon and hoping we can embark on 
+this journey together!
+
+Best regards,
+
+John Smith!
+
+From - Mon Jul 31 14:15:15 2023
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-Path: <noreply@hackers.inc>
+Delivered-To: anon@blackhat.lol
+Received: from 2.mail-backend.blackhat.lol
+	by 2.mail-backend.blackhat.lol with LMTP
+	id 4PLBC8GXx2TTGScAFYkcXQ
+	(envelope-from <h@ckerman.eu>)
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:15:13 +0000
+Received: from latitanza.blackhat.lol (unknown [127.0.0.1])
+	by 2.mail-backend.blackhat.lol (Postfix) with ESMTP id 4RDwdD52v5zyVx
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:15:12 +0000 (UTC)
+Received: from mx3.blackhat.lol (unknown [127.0.0.1])
+	by latitanza.blackhat.lol (Postfix) with ESMTP id 4RDwdD4dT6zGnxZ
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:15:12 +0000 (UTC)
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=::1; helo=ckerman.eu; envelope-from=h@ckerman.eu; receiver=<UNKNOWN> 
+Received: from ckerman.eu (mail.ckerman.eu [IPv6:::1])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (P-256) server-signature RSA-PSS (2048 bits) server-digest SHA512)
+	(No client certificate requested)
+	by mx3.blackhat.lol (Postfix) with ESMTPS id 4RDwdD3tqQzGnxT
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:15:12 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ckerman.eu; s=mail;
+	t=1690802105;
+	h=from:from:reply-to:subject:subject:date:date:message-id:message-id:
+	 to:to:cc:mime-version:mime-version:content-type:content-type:
+	 content-transfer-encoding:content-transfer-encoding;
+	bh=d+uJsd+t4yXPrHv0/cq0idUeBGE4lPQGowLVKcD1miA=;
+	b=AxEYlrXm4xZIhwt8EVx5/HDcee2HNqBQEKknYTKuP6K4UaQx3AIDQKBUu79b90svO1Bgn6
+	1FSu4nSfnIzfWMHfWzMuCS7UIbfk3sSF8OqpPU4d6bVRxObvzGDWHKC3LptNPF2YYy+yG7
+	GVn8zkKBMU99A48+m5tKPwlOGgx/5XhnwDojJwytxidIuAR3DfWtSgZE2tqqm8xpDxs7ZA
+	lbrbUNMz7FrYU8kNoxqlcjToGQsQ9e7vBcNzY88AKQ26DB7zJd7tG7h0WwCXMD9WGXJoh1
+	1YG3xtecUxB+vILOgc3jlsX4OLkNF1Sawwe6qmmh0GQ1gI7zeihjtJgo4VJQbA==
+Received: from [127.0.0.1] (193-40-225-195.kehtna.edu.ee [127.0.0.1])
+	by ckerman.eu (OpenSMTPD) with ESMTPSA id e3123a34 (TLSv1.3:TLS_AES_256_GCM_SHA384:256:NO)
+	for <anon@blackhat.lol>;
+	Mon, 31 Jul 2023 11:15:04 +0000 (UTC)
+Message-ID: <965d0b73-b1fb-b50d-2174-c70a2db3f121@ckerman.eu>
+Date: Mon, 31 Jul 2023 14:15:04 +0300
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101
+ Thunderbird/102.13.1
+Content-Language: en-US
+To: Anon <anon@blackhat.lol>
+From: Hackers INC <noreply@hackers.inc>
+Subject: Welcome to Our Newsletter!
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=-6.2 required=3.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,DKIM_VALID_EF,SPF_HELO_PASS,SPF_PASS,TXREP,
+	T_SCC_BODY_TEXT_LINE shortcircuit=no autolearn=ham autolearn_force=no
+	version=3.4.6
+X-Spam-Checker-Version: SpamAssassin 3.4.6 (2021-04-09) on
+	spamassassin.blackhat.lol
+
+Dear Anon,
+
+Thank you for subscribing to our newsletter! We're thrilled to have you 
+as a part of our community.
+
+By being part of our newsletter, you'll receive regular updates on the 
+latest trends in [Your Industry/Field], exclusive content, and exciting 
+offers. We promise to keep our emails informative and engaging, adding 
+value to your inbox.
+
+If you have any specific topics you'd like us to cover or any questions, 
+feel free to reply to this email, and we'll be more than happy to assist 
+you.
+
+Once again, welcome to our newsletter family, and we're looking forward 
+to sharing valuable insights with you.
+
+Best regards, Hackers INC!
+
+From - Mon Jul 31 14:17:32 2023
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+Return-Path: <john.smith@cyberresearch.xyz>
+Delivered-To: anon@blackhat.lol
+Received: from 2.mail-backend.blackhat.lol
+	by 2.mail-backend.blackhat.lol with LMTP
+	id IGEhNUqYx2R3MScAFYkcXQ
+	(envelope-from <anon@blackhat.lol>)
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:17:30 +0000
+Received: from latitanza.blackhat.lol (unknown [127.0.0.1])
+	by 2.mail-backend.blackhat.lol (Postfix) with ESMTP id 4RDwgt5CmszyVx
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:17:30 +0000 (UTC)
+Received: from mx3.blackhat.lol (unknown [127.0.0.1])
+	by latitanza.blackhat.lol (Postfix) with ESMTP id 4RDwgt4sfbzGnxZ
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:17:30 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=blackhat.lol;
+	s=stigmate; t=1690802250;
+	bh=T/sUbTqiXHzzTxtFao6YIj+1g81wVA8c67FfgR1hu9Y=;
+	h=Date:To:From:Subject:From;
+	b=LsXb0P//ozZqCHxNbox8lgtDAPv3Utv6IdyGKoqa41mGZ/1HLDRjhPM6tLAxGAylM
+	 /XvNnro0PtG+MZH/LU9aof+Y6AOgNrIfRzanKMVwFxNmVCp9P98Z+0mxrLWMF2U+D0
+	 XestWO+wh4XRpvY2KyofdUQVao7DVewmwjQBy+10=
+Received: from [127.0.0.1] (mx3.blackhat.lol [127.0.0.1]) (Authenticated sender: anon@blackhat.lol) by localhost (Postfix) with ESMTPSA id 4RDwgt3NSYzGnxT
+	for <anon@blackhat.lol>; Mon, 31 Jul 2023 11:17:30 +0000 (UTC)
+Message-ID: <80a7b5e3-eafe-df69-b771-3ed992d9fdbc@blackhat.lol>
+Date: Mon, 31 Jul 2023 14:17:29 +0300
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101
+ Thunderbird/102.13.1
+Content-Language: en-US
+To: Anon <anon@blackhat.lol>
+From: John Smith <john.smith@cyberresearch.xyz>
+Subject: Congratulations on Your Promotion!
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Spam-Status: No, score=-1.0 required=3.0 tests=ALL_TRUSTED,SHORTCIRCUIT
+	shortcircuit=ham autolearn=disabled version=3.4.6
+X-Spam-Checker-Version: SpamAssassin 3.4.6 (2021-04-09) on
+	spamassassin.blackhat.lol
+
+Dear Anon,
+
+I wanted to extend my heartfelt congratulations on your recent 
+promotion! This is a well-deserved recognition of your hard work and 
+dedication to the company. Your contributions have been invaluable, and 
+I'm thrilled to see you advance in your career.
+
+I'm confident that you'll excel in your new role and continue to inspire 
+others with your skills and leadership. If there's anything I can do to 
+support you during this transition, please don't hesitate to reach out.
+
+Wishing you continued success and prosperity in your new position!
+
+Warm regards, John Smith!
+
