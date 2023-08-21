@@ -1,0 +1,3 @@
+LITCTF{flag}
+
+BASE_URL = "http://litctf.org:31780"
