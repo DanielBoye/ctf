@@ -46,7 +46,9 @@ contract GlacierCoin
     {
         require(balances[msg.sender] >= amount, "You can not sell this much as you are poor af");
         uint256 new_balance = balances[msg.sender] - amount;
-        (msg.sender).call{value: amount}("");
+
+//        Commented out since it was yellow underlined
+//        (msg.sender).call{value: amount}("");
         balances[msg.sender] = new_balance;
     }
 
