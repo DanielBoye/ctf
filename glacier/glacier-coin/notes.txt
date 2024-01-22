@@ -1,0 +1,9 @@
+ticket please: 152953952794
+
+your private blockchain has been deployed
+it will automatically terminate in 30 minutes
+here's some useful information
+uuid:           951446a4-9daa-427b-a755-0a5911f467c5
+rpc endpoint:   http://34.159.107.195:18545/951446a4-9daa-427b-a755-0a5911f467c5
+private key:    0x2a2db9eb27052b828169cf9bb6c040ddb60d5230651ec16ce916b9eeae8d22a1
+setup contract: 0xc2C58254C6BCe019C962B3C077621DA27C9Fbf61

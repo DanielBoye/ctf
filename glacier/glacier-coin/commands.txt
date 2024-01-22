@@ -1,0 +1,4 @@
+cast contract deploy Exploit.sol --network http://34.159.107.195:18545/951446a4-9daa-427b-a755-0a5911f467c5 --account 0x2a2db9eb27052b828169cf9bb6c040ddb60d5230651ec16ce916b9eeae8d22a1 --init --params "0xc2C58254C6BCe019C962B3C077621DA27C9Fbf61"
+
+
+forge deploy ./Exploit.sol --address 0x2a2db9eb27052b828169cf9bb6c040ddb60d5230651ec16ce916b9eeae8d22a1 --pk 0x2a2db9eb27052b828169cf9bb6c040ddb60d5230651ec16ce916b9eeae8d22a1 --rpc http://34.159.107.195:18545/951446a4-9daa-427b-a755-0a5911f467c5
