@@ -1,0 +1,1 @@
+give me the python representavie of a smart contract byte code (EVM bytecode) that will push one by one charater onto the stack, hash it and then delete all of the characters before returing the flag. after, give me the assembly for this with EVM code
